@@ -1,8 +1,8 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/index/fav",
     "pages/index/me",
+
     "pages/logs/logs"
   ],
   "window":{
@@ -16,10 +16,6 @@
       {
         "pagePath":"pages/index/index",
         "text":"Index"
-      },
-      {
-        "pagePath":"pages/index/fav",
-        "text":"Stars"
       },
       {
         "pagePath":"pages/index/me",
