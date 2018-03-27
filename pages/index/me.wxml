@@ -1,0 +1,5 @@
+<view>
+  <text>{{proflie.nickName}}</text>
+  <image src='{{profile.avatarUrl}}' mode='widthFix'></image>
+  <button open-type='getUserInfo'bindgetUserInfo='getProfile'>Log in</button>
+</view>
