@@ -1,5 +1,14 @@
-<view>
-  <text>{{proflie.nickName}}</text>
-  <image src='{{profile.avatarUrl}}' mode='widthFix'></image>
-  <button open-type='getUserInfo'bindgetUserInfo='getProfile'>Log in</button>
+<view class="class-me">
+  <button wx:if="{{!hasUserInfo && canIUse}}"
+          open-type="getUserInfo"
+          bindgetuserinfo="getUserInfo">Log In
+  </button>
+  <block wx:else>
+    <image bindtap="bindViewtap"
+            class="user-avatar"
+            src="{{userInfo.avatarUrl}}"  
+            background-size="cover"></image>
+    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+  </block>
+  <view class='myFav'></view>
 </view>
