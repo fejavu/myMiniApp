@@ -1,9 +1,8 @@
 const app = getApp()
 Page({
-
   /**
    * 页面的初始数据
-   * userInfo user's information include nickName,avatarUrl,gender,and so on
+   * userInfo user's information include nickName,avatarUrl,gender,and so      on
    * hasUserInfo
    */
   data: {
@@ -24,13 +23,13 @@ Page({
     if(app.globalData.userInfo){
       this.setData({
         userInfo:app.globalDta.userInfo,
-        hasUserInfo:ture
+        hasUserInfo:true
       })
     } else if (this.data.canIUse){
       app.userInfoReadyCallback = res=>{
         this.setData({
           userInfo:res.userInfo,
-          hasUserInfo:ture
+          hasUserInfo:true
         })
       }
     }else{
@@ -39,7 +38,7 @@ Page({
           app.global.userInfo = res.userInfo
           this.setData({
             userInfo:res.userInfo,
-            hasUserInfo:ture
+            hasUserInfo:true
           })
 
         }
@@ -51,7 +50,7 @@ Page({
     app.globalData.userInfo = e.detail.userInfo
     this.setData({
       userInfo:e.detail.userInfo,
-      hasUserInfo:ture
+      hasUserInfo:true
     })
   },
   /**
