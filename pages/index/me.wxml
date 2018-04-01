@@ -9,6 +9,9 @@
             src="{{userInfo.avatarUrl}}"  
             background-size="cover"></image>
     <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    <navigator url="fav.wxml" 
+              open-type="navigate"
+              hover-class='favorite-hover'>Favorite</navigator>
   </block>
   <view class='myFav'></view>
 </view>

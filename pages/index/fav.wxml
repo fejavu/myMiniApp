@@ -3,7 +3,7 @@
 <text selectable='true'>From Google Earth</text>
 </view>
 <view class='starStyle'>
-<image mode="scaleToFill" src="google-earth-view-1540.jpg"></image>
+<image mode="scaleToFill" src="./expPics/google-earth-view-1034.jpg"></image>
 </view>
 <view class="waitMotto">
 <text>Coming Soon...</text>

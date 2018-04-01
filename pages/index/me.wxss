@@ -22,7 +22,7 @@ view{
   color: #aaa;
   margin: 20rpx
 }
-
-.usermotto {
-  margin-top: 200px;
+.favorite-hover{
+  color: yellowgreen;
+  margin: 20rpx
 }
