@@ -3,11 +3,9 @@
 <text selectable='true'>Google Earth</text>
 </view>
 <view class='starStyle'>
-<image mode="scaleToFill" 
+<image wx:for = "{{picUrl}}" wx:for-item="idx"
+        mode="scaleToFill" 
         class='picture'
-        src="/expPics/google-earth-view-1034.jpg"></image>
-<image mode="scaleToFill" 
-        class='picture'
-        src="/expPics/google-earth-view-1160.jpg"></image>
+        src="{{idx}}"></image>
 </view>
 

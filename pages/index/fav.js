@@ -6,7 +6,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-  
+    picUrl: ["/expPics/google-earth-view-1034.jpg",       "/expPics/google-earth-view-1160.jpg",    "/expPics/google-earth-view-1432.jpg"],
   },
 
   /**
