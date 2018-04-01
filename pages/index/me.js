@@ -11,11 +11,15 @@ Page({
     canIUse: wx.canIUse('button.open-type.getUserInfo')
   },
 
-  bindViewTap: function () {
+  /**
+   * 从个人信息页点击前往收藏页函数
+   */
+  toFavoritePage:function(e){
     wx.navigateTo({
-      url: '../logs/logs'
+      url: 'fav.wxml',
     })
   },
+
   /**
    * 生命周期函数--监听页面加载
    */

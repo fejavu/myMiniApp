@@ -15,11 +15,13 @@ view{
   width: 128rpx;
   height: 128rpx;
   margin: 20rpx;
-  border-radius: 50%;
+  
 }
-
 .userinfo-nickname {
   color: #aaa;
+  margin: 20rpx
+}
+.favorite{
   margin: 20rpx
 }
 .favorite-hover{

@@ -1,4 +1,5 @@
 // pages/index/fav.js
+const app = getApp()
 Page({
 
   /**

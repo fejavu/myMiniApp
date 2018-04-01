@@ -9,9 +9,9 @@
             src="{{userInfo.avatarUrl}}"  
             background-size="cover"></image>
     <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-    <navigator url="fav.wxml" 
-              open-type="navigate"
-              hover-class='favorite-hover'>Favorite</navigator>
+    <button bindtap="toFavoritePage"
+            class='favorite'
+            hover-class='favorite-hover'>Favorite</button>
   </block>
   <view class='myFav'></view>
 </view>
