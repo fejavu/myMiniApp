@@ -1,10 +1,13 @@
 <!--pages/index/fav.wxml-->
 <view class="title">
-<text selectable='true'>From Google Earth</text>
+<text selectable='true'>Google Earth</text>
 </view>
 <view class='starStyle'>
-<image mode="scaleToFill" src="./expPics/google-earth-view-1034.jpg"></image>
+<image mode="scaleToFill" 
+        class='picture'
+        src="/expPics/google-earth-view-1034.jpg"></image>
+<image mode="scaleToFill" 
+        class='picture'
+        src="/expPics/google-earth-view-1160.jpg"></image>
 </view>
-<view class="waitMotto">
-<text>Coming Soon...</text>
-</view>
+

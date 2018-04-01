@@ -1,8 +1,9 @@
 {
   "pages":[
-    "pages/index/index",
     "pages/index/me",
-    "pages/logs/logs"
+    "pages/index/fav",
+    "pages/logs/logs",
+    "pages/index/index"
   ],
   "window":{
     "backgroundTextStyle":"light",

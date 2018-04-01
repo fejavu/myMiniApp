@@ -2,7 +2,7 @@ const app = getApp()
 Page({
   /**
    * 页面的初始数据
-   * userInfo user's information include nickName,avatarUrl,gender,and so      on
+   * userInfo user's information include nickName,avatarUrl,gender,     and so      on
    * hasUserInfo
    */
   data: {
@@ -14,9 +14,9 @@ Page({
   /**
    * 从个人信息页点击前往收藏页函数
    */
-  toFavoritePage:function(e){
+  toFavoritePage:function(){
     wx.navigateTo({
-      url: 'fav.wxml',
+      url: './fav'
     })
   },
 

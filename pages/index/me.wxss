@@ -22,9 +22,8 @@ view{
   margin: 20rpx
 }
 .favorite{
-  margin: 20rpx
+
 }
 .favorite-hover{
-  color: yellowgreen;
-  margin: 20rpx
+  
 }
