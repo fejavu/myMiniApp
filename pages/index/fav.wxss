@@ -14,7 +14,7 @@
   /*position: relative;*/  
   background-color: #aaa;
   margin-top: 0px;
-  margin-right: 0px;
+  margin-right: 239px;
   margin-bottom: 12px;
   margin-left: 20px;
 }
@@ -24,5 +24,5 @@
   color: #aaa;
 }
 .picture{
-  margin: 20rpx
+  margin: 20rpx;
 }
