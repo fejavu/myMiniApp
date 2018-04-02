@@ -1,10 +1,9 @@
 /**me.wxss**/
-view{
+.class-me{
   display: flex;
   flex-direction: column;
   align-content: center;
   justify-content: space-around;
-  height:800rpx;
 }
 .userinfo {
   display: flex;
@@ -15,15 +14,9 @@ view{
   width: 128rpx;
   height: 128rpx;
   margin: 20rpx;
-  
+  border-radius: 50%;
 }
 .userinfo-nickname {
   color: #aaa;
-  margin: 20rpx
-}
-.favorite{
-
-}
-.favorite-hover{
-  
+  margin: 20rpx;
 }

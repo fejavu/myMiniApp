@@ -13,5 +13,4 @@
             size='default'
             bindtap="toFavoritePage">Favorite</button>
   </block>
-  <view class='myFav'></view>
 </view>

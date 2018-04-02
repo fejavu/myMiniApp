@@ -14,7 +14,7 @@ Page({
   /**
    * 从个人信息页点击前往收藏页函数
    */
-  toFavoritePage:function(){
+  toFavoritePage:function() {
     wx.navigateTo({
       url: './fav'
     })
