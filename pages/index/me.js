@@ -19,6 +19,14 @@ Page({
       url: './fav'
     })
   },
+  /**
+   * to log in logs
+   */
+  toLogIn:function(){
+    wx.navigateTo({
+      url: '../logs/logs',
+    })
+  },
 
   /**
    * 生命周期函数--监听页面加载

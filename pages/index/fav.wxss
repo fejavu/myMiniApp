@@ -11,8 +11,9 @@
   font-weight: bolder;
 }
 .title{
-  /*position: relative;*/  
-  background-color: #aaa;
+  /*position: relative;*/
+  font-style: oblique;  
+  background-color: #ddd;
   margin-top: 0px;
   margin-right: 239px;
   margin-bottom: 12px;

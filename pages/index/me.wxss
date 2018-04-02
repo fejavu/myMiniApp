@@ -1,5 +1,5 @@
 /**me.wxss**/
-.class-me{
+.classUserInfo{
   display: flex;
   flex-direction: column;
   align-content: center;
@@ -23,21 +23,25 @@
   margin: 20rpx;
   align-items: center;
 }
-.favoriteView{
-  background-color: #ddd;
+.meDetailView{
+  background-color: white;
   align-items: left;
-  margin:180rpx 0rem 300rpx 0rpx;
+  margin:180rpx 0rem 20rpx 0rpx;
 }
-.favText{
+.favorite{
+  background-color: #ddd;
+  padding-top: 24rpx;
+  padding-bottom: 24rpx;
+  padding-left: 28rpx;
+  margin:0rpx 0rpx 40rpx 0rpx ;
+}
+.puchase{
+  background-color: #ddd;
   padding-top: 24rpx;
   padding-bottom: 24rpx;
   padding-left: 28rpx;
 }
-.favoriteViewHover{
+.viewHover{
   background-color: #aaa;
-}
-.starIcon{
-  width: 5rpx;
-  height: 5rpx;
 }
 
