@@ -7,7 +7,15 @@ Page({
    */
   data: {
     picUrl: ["/expPics/google-earth-view-1034.jpg",       "/expPics/google-earth-view-1160.jpg",    "/expPics/google-earth-view-1432.jpg"],
+    picSrc:"http://www.google.cn/maps"
   },
+
+/** 
+ * bindTap to picSrc function
+*/
+bindToSrc:function() {
+
+},
 
   /**
    * 生命周期函数--监听页面加载

@@ -1,16 +1,23 @@
-<view class="class-me">
-  <button wx:if="{{!hasUserInfo && canIUse}}"
+<view>
+  <button 
+          class='class-me'
+          wx:if="{{!hasUserInfo && canIUse}}"
           open-type="getUserInfo"
           bindgetuserinfo="getUserInfo">Log In
   </button>
   <block wx:else>
-    <image bindtap="bindViewtap"
-            class="userinfo-avatar"
+    <view class='class-me'>
+    <image  class="userinfo-avatar"
             src="{{userInfo.avatarUrl}}"  
             background-size="cover"></image>
     <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-    <button type='primary'
-            size='default'
-            bindtap="toFavoritePage">Favorite</button>
+    </view>
+    <view class='favoriteView'
+          hover-class='favoriteViewHover'
+          bindtap='toFavoritePage'>
+      <view class='favText'>
+        <text>Favorite</text>
+      </view>
+    </view>
   </block>
 </view>

@@ -2,7 +2,7 @@ const app = getApp()
 Page({
   /**
    * 页面的初始数据
-   * userInfo user's information include nickName,avatarUrl,gender,     and so      on
+   * userInfo user's information include nickName,avatarUrl,gender,and so on
    * hasUserInfo
    */
   data: {
