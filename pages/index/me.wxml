@@ -2,6 +2,7 @@
   <button type='default'
           size='default'
           class='class-me'
+          hover-class='viewHover'
           wx:if="{{!hasUserInfo && canIUse}}"
           open-type="getUserInfo"
           bindgetuserinfo="getUserInfo">Log In
@@ -9,15 +10,15 @@
   <block wx:else>
     <view class='mePageClass'>
       <view class='classUserInfo'>
-          <view class="userinfo-avatar">
+          <view class="">
             <image class="userinfo-avatar"
                   src="{{userInfo.avatarUrl}}"  
                   background-size="cover"
                   bindtap='toLogIn'></image>
           </view>
-          <view class="userinfo-nickname">
+          <!--<view class="userinfo-nickname">
             <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-          </view>
+          </view>-->
           
       </view>
       <view class="meDetailView">
@@ -29,7 +30,7 @@
         <view class="puchase" 
               bindtap=''
               hover-class='viewHover'>
-          <text>Puchase</text>  
+              <text>Puchased</text>  
         </view>
       </view>
     </view>

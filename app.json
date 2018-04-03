@@ -4,6 +4,7 @@
     "pages/index/fav",
     "pages/logs/logs",
     "pages/index/index"
+    
   ],
   "window":{
     "backgroundTextStyle":"light",

@@ -14,7 +14,15 @@
       <text class="userinfo-nickname">{{userInfo.nickName}}</text>
     </block>
   </view>
-  <view class="usermotto">
+  <view class="usermotto" 
+        hover-class="mottoHover"
+        bindtap='alert'>
     <text class="user-motto">{{motto}}</text>
+  </view>
+  <view>
+  <image wx:for = "{{picUrl}}" wx:for-item="idx"
+        mode="scaleToFill" 
+        class='picture'
+        src="{{idx}}"></image>
   </view>
 </view>
