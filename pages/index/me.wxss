@@ -1,22 +1,26 @@
 /**me.wxss**/
-.classUserInfo{
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  justify-content: space-around;
-  align-items: center;
+page{
+  background-color:gainsboro ;
 }
-.userinfo {
-  display: flex;
-  flex-direction: column;
-  
+.mePageClass{
+  background-color: gainsboro;
+}
+.classUserInfo{
+  /*display: flex;*/
+  /*flex-direction: column;*/
+  /*align-content: center;*/
+  /*justify-content: space-around;*/
+  /*align-items: center;*/
+  margin-top: 60rpx;
+  background-color: whitesmoke;
 }
 .userinfo-avatar {
   width: 128rpx;
   height: 128rpx;
-  margin: 20rpx;
+  margin-top: 20rpx;
+  margin-left: 20rpx;
   border-radius: 50%;
-  align-items: center;
+  /*align-items: center;*/
 }
 .userinfo-nickname {
   color: #aaa;
@@ -24,19 +28,18 @@
   align-items: center;
 }
 .meDetailView{
-  background-color: white;
   align-items: left;
   margin:180rpx 0rem 20rpx 0rpx;
 }
 .favorite{
-  background-color: #ddd;
+  background-color: whitesmoke;
   padding-top: 24rpx;
   padding-bottom: 24rpx;
   padding-left: 28rpx;
   margin:0rpx 0rpx 40rpx 0rpx ;
 }
 .puchase{
-  background-color: #ddd;
+  background-color: whitesmoke;
   padding-top: 24rpx;
   padding-bottom: 24rpx;
   padding-left: 28rpx;

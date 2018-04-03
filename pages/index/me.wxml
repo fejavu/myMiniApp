@@ -7,23 +7,30 @@
           bindgetuserinfo="getUserInfo">Log In
   </button>
   <block wx:else>
-    <view class='classUserInfo'>
-        <image  class="userinfo-avatar"
-                src="{{userInfo.avatarUrl}}"  
-                background-size="cover"
-                bindtap='toLogIn'></image>
-        <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-    </view>
-    <view class="meDetailView">
-      <view class="favorite" 
-            bindtap='toFavoritePage' 
-            hover-class='viewHover'>
-            <text>Favorite</text>
+    <view class='mePageClass'>
+      <view class='classUserInfo'>
+          <view class="userinfo-avatar">
+            <image class="userinfo-avatar"
+                  src="{{userInfo.avatarUrl}}"  
+                  background-size="cover"
+                  bindtap='toLogIn'></image>
+          </view>
+          <view class="userinfo-nickname">
+            <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+          </view>
+          
       </view>
-      <view class="puchase" 
-            bindtap=''
-            hover-class='viewHover'>
-        <text>Puchase</text>  
+      <view class="meDetailView">
+        <view class="favorite" 
+              bindtap='toFavoritePage' 
+              hover-class='viewHover'>
+              <text>Favorite</text>
+        </view>
+        <view class="puchase" 
+              bindtap=''
+              hover-class='viewHover'>
+          <text>Puchase</text>  
+        </view>
       </view>
     </view>
   </block>
