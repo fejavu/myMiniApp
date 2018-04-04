@@ -20,7 +20,9 @@
     <text class="user-motto">{{motto}}</text>
   </view>
   <view>
-  <image wx:for = "{{picUrl}}" wx:for-item="idx"
+  <image wx:for = "{{picUrl}}" 
+        wx:for-item = "idx"
+        wx:key="idx"
         mode="scaleToFill" 
         class='picture'
         src="{{idx}}"></image>
