@@ -9,7 +9,7 @@ Page({
     hasUserInfo: false,
     canIUse: wx.canIUse('button.open-type.getUserInfo'),
     picUrl: ["/expPics/google-earth-view-1034.jpg", "/expPics/google-earth-view-1160.jpg", "/expPics/google-earth-view-1432.jpg"],
-    picSrc: "http://www.google.cn/maps"
+    picSrc: "http://www.google.cn/maps",    
   },
   
   //事件处理函数
@@ -55,11 +55,12 @@ Page({
     })
   },
   alert:function(e){
-    randomGift:["Boyfriend","Girlfriend", "Money", 
+    var randomGift = ["Boyfriend","Girlfriend", "Money", 
                   "Offer","Accident","Tomorro"];
+    var randomGiftString = randomGift[Math.round(Math.random() * 3)];
     wx.showToast({
       //title: 'randomGift[Math.round(Math.random()*3)]',
-      title:'登录成功',
+      title:randomGiftString,
       icon:'success',
       duration:2000,
     })
