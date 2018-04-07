@@ -26,6 +26,11 @@ page{
   margin-top: 200px;
   margin-bottom: 100px;
 }
+.usermotto text{
+  font-family: Consola;
+  font-size: 20px;
+  letter-spacing:1px ;
+}
 .mottoHover{
   background-color: #aaa;
 }

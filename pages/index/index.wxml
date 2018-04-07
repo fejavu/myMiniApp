@@ -17,7 +17,7 @@
   <view class="usermotto" 
         hover-class="mottoHover"
         bindtap='alert'>
-    <text class="user-motto">{{motto}}</text>
+    <text>{{motto}}</text>
   </view>
   <view>
   <image wx:for = "{{picUrl}}" 
