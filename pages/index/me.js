@@ -1,4 +1,5 @@
 const app = getApp()
+
 Page({
   /**
    * 页面的初始数据
@@ -8,7 +9,7 @@ Page({
   data: {
     userInfo:{},
     hasUserInfo:false,
-    canIUse: wx.canIUse('button.open-type.getUserInfo')
+    canIUse: wx.canIUse('button.open-type.getUserInfo'),
   },
 
   /**

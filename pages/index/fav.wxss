@@ -26,4 +26,5 @@
 }
 .picture{
   margin: 20rpx;
+  border-radius: 10px;
 }

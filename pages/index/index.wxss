@@ -28,7 +28,7 @@ page{
 }
 .usermotto text{
   font-family: Consola;
-  font-size: 20px;
+  font-size: 18px;
   letter-spacing:1px ;
 }
 .mottoHover{

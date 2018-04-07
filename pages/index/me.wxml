@@ -13,9 +13,9 @@
                   bindtap='toLogIn'></image>
           </view>
           <view class="userinfo-nickname">
-            <text>{{userInfo.nickName}}</text>
+            <text style='color:black'>{{userInfo.nickName}}</text>
+            <text>微信号：Dejavu_jab</text>
           </view>
-          
       </view>
       <view class="meDetailView">
         <view class="favorite" 
