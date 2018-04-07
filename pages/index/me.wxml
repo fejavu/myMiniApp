@@ -1,24 +1,20 @@
 <view>
-  <button type='default'
-          size='default'
+  <button 
           class='class-me'
-          hover-class='viewHover'
           wx:if="{{!hasUserInfo && canIUse}}"
           open-type="getUserInfo"
-          bindgetuserinfo="getUserInfo">Log In
-  </button>
+          bindgetuserinfo="getUserInfo">Log In</button>
   <block wx:else>
-    <view class='mePageClass'>
+    <view>
       <view class='classUserInfo'>
-          <view class="">
-            <image class="userinfo-avatar"
-                  src="{{userInfo.avatarUrl}}"  
+          <view>
+            <image src="{{userInfo.avatarUrl}}"  
                   background-size="cover"
                   bindtap='toLogIn'></image>
           </view>
-          <!--<view class="userinfo-nickname">
-            <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-          </view>-->
+          <view class="userinfo-nickname">
+            <text>{{userInfo.nickName}}</text>
+          </view>
           
       </view>
       <view class="meDetailView">
