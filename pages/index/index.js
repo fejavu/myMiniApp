@@ -8,8 +8,9 @@ Page({
     userInfo: {},
     hasUserInfo: false,
     canIUse: wx.canIUse('button.open-type.getUserInfo'),
-    picUrl: ["/expPics/google-earth-view-1034.jpg", "/expPics/google-earth-view-1160.jpg", "/expPics/google-earth-view-1432.jpg"],
-    picSrc: "http://www.google.cn/maps",    
+    picUrl: ["/expPics/google-earth-view-1034.jpg",
+    "/expPics/google-earth-view-1160.jpg", 
+    "/expPics/google-earth-view-1432.jpg"],
   },
   
   //事件处理函数
