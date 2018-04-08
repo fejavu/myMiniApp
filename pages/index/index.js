@@ -4,7 +4,7 @@ const app = getApp()
 
 Page({
   data: {
-    motto: 'Halo World',
+    motto: '求上上签',
     userInfo: {},
     hasUserInfo: false,
     canIUse: wx.canIUse('button.open-type.getUserInfo'),
@@ -56,13 +56,12 @@ Page({
   },
   alert:function(e){
     var randomGift = ["Boyfriend","Girlfriend", "Money",
-                      "Offer","Accident","Tomorro"];
-    var randomGiftString = randomGift[Math.round(Math.random() * 3)];
+                      "Offer","Accident","Tomorrow"];
+    var randomGiftString = randomGift[Math.round(Math.random() * 5)];
     wx.showToast({
       title:randomGiftString,
       icon:'success',
       duration:2000,
     })
   }
-  
 })

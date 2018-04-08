@@ -10,6 +10,8 @@ Page({
     userInfo:{},
     hasUserInfo:false,
     canIUse: wx.canIUse('button.open-type.getUserInfo'),
+    //{{userInfo.avatarUrl}}
+
   },
 
   /**
@@ -35,7 +37,7 @@ Page({
   onLoad: function () {
     if(app.globalData.userInfo){
       this.setData({
-        userInfo:app.globalDta.userInfo,
+        userInfo:app.globalData.userInfo,
         hasUserInfo:true
       })
     } else if (this.data.canIUse){
@@ -47,7 +49,7 @@ Page({
       }
     }else{
       wx.getUserInfo({
-        success:res=>{
+        success:res => {
           app.global.userInfo = res.userInfo
           this.setData({
             userInfo:res.userInfo,

@@ -1,6 +1,6 @@
 <!--pages/index/fav.wxml-->
 <view class="title">
-<text selectable='true' bindtap='bindToSrc'>Google Earth</text>
+<text selectable='true'>Google Earth</text>
 </view>
 <view class='starStyle'>
 <image wx:for = "{{picUrl}}" wx:for-item="idx"

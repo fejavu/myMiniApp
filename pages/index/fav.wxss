@@ -11,13 +11,18 @@
   font-weight: bolder;
 }
 .title{
-  /*position: relative;*/
-  font-style: oblique;  
-  background-color: #ddd;
+  /*position: relative;
+  font-style: oblique;
   margin-top: 0px;
   margin-right: 239px;
   margin-bottom: 12px;
   margin-left: 20px;
+  */  
+  background-color: #ddd;
+  padding: 2px;
+  border-radius: 6px;
+  margin-left: 20px;
+  margin-right: 235px;
 }
 .waitMotto{
   margin-top: 100px;

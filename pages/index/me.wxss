@@ -8,51 +8,37 @@ page{
 .classUserInfo{
   display: flex;
   flex-direction: row;
-  /*align-content: center;*/
-  /*justify-content: space-around;*/
-  /*align-items: center; 
-  background-color: powderblue;
-  */
   margin-top: 60rpx;
   background-color: whitesmoke;
-  padding: 16rpx;
+  padding: 1rpx 20rpx 1rpx 20rpx;
 }
 .classUserInfo image{
   width: 128rpx;
   height: 128rpx;
-  margin: 0rpx 20rpx 0rpx 20rpx;
-  border-radius: 0%;
+  /*margin: 0rpx 20rpx 0rpx 20rpx;
+  background-color: yellowgreen;*/
+  margin:0 auto;
+}
+.userinfo-avatar{
+  padding: 6px;
+  display: flex;
+  flex-direction: column;
+  /*background-color: brown;*/
 }
 .classUserInfo text{
   color: #aaa;
-  margin: 0rpx 0rpx 0rpx 20rpx ;
-  /*background-color: plum;*/
+  /*background-color: yellow;*/
 }
-/*.userinfo-avatar {
-  width: 128rpx;
-  height: 128rpx;
-  margin: 20rpx;
-  border-radius: 50%;
-  background-color: yellowgreen;
-  align-items: center;
-    margin-top: 20rpx;
-    margin-left: 20rpx;
-}*/
 .userinfo-nickname {
-  margin: 0rpx 0rpx 10rpx 0rpx ;
+  margin: 0rpx 0rpx 0rpx 0rpx ;
   display: flex;
   flex-direction: column;
-  padding: 10rpx;
-  /*color: #aaa;
-  margin: 10rpx 0rpx 10rpx 15rpx ;
-  padding-bottom: 10rpx;
-  align-items: center;
-    background-color: yellow;
-  */
+  padding: 25rpx 20rpx 25rpx 20rpx;
+  /*background-color: yellowgreen;*/
 }
 .meDetailView{
   align-items: left;
-  margin:180rpx 0rem 20rpx 0rpx;
+  margin:100rpx 0rpx 20rpx 0rpx;
 }
 .favorite{
   background-color: whitesmoke;

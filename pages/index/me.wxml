@@ -7,10 +7,10 @@
   <block wx:else>
     <view>
       <view class='classUserInfo'>
-          <view>
+          <view class='userinfo-avatar'> 
             <image src="{{userInfo.avatarUrl}}"  
-                  background-size="cover"
-                  bindtap='toLogIn'></image>
+                   background-size="cover"
+                   bindtap='toLogIn'></image>
           </view>
           <view class="userinfo-nickname">
             <text style='color:black'>{{userInfo.nickName}}</text>
